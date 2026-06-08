@@ -29,13 +29,17 @@ export default function Footer() {
           </h4>
           <a
             className="font-bold text-xl text-white hover:text-strawberry-pop transition-colors hover:translate-x-2 w-fit flex items-center gap-2"
-            href="#"
+            href="https://www.instagram.com/berlinerwaffle/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <span className="material-symbols-outlined">photo_camera</span> Instagram
           </a>
           <a
             className="font-bold text-xl text-white hover:text-strawberry-pop transition-colors hover:translate-x-2 w-fit flex items-center gap-2"
-            href="#"
+            href="https://www.tiktok.com/@berlinerwaffle"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <span className="material-symbols-outlined">play_circle</span> TikTok
           </a>
