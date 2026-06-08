@@ -179,4 +179,7 @@ body {
     .hero-bg-icon {
         font-size: 550px;
     }
+    .desktop-text-stroke-pink {
+        -webkit-text-stroke: 2px #000;
+    }
 }

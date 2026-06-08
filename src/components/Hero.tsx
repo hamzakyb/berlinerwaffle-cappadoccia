@@ -32,8 +32,7 @@ export default function Hero() {
           <h1 className="font-display-lg text-[44px] leading-[44px] sm:text-[60px] sm:leading-[60px] md:text-[100px] md:leading-[90px] font-extrabold text-black tracking-tighter uppercase">
             <span className="whitespace-nowrap">Mutluluğun</span><br />
             <span 
-              className="text-strawberry-pop block my-2 -rotate-2 drop-shadow-[4px_4px_0px_#000]"
-              style={{ WebkitTextStroke: "2px #000" }}
+              className="text-strawberry-pop block my-2 -rotate-2 md:drop-shadow-[4px_4px_0px_#000] desktop-text-stroke-pink"
             >
               En Tatlı
             </span>
