@@ -83,13 +83,13 @@ export default function Hero() {
               style={{ borderRadius: "40% 60% 70% 30% / 40% 50% 60% 50%" }}
             />
             {/* Floating badges */}
-            <div className="absolute -top-6 -right-6 sm:-top-10 sm:-right-10 bg-honey-glaze border-4 border-black text-black font-black text-lg sm:text-2xl p-4 sm:p-6 rounded-full sticker-shadow rotate-12 animate-pulse flex items-center justify-center aspect-square select-none">
-              <span className="text-center leading-none">
+            <div className="absolute -top-6 -right-4 sm:-top-10 sm:-right-10 bg-honey-glaze border-4 border-black text-black font-black text-xs sm:text-xl md:text-2xl w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full sticker-shadow rotate-12 animate-pulse flex items-center justify-center shrink-0 select-none">
+              <span className="text-center leading-tight">
                 KOVA<br />BOY!
               </span>
             </div>
-            <div className="absolute -bottom-6 -left-6 sm:-bottom-10 sm:-left-10 bg-tertiary-container border-4 border-black text-black font-black text-sm sm:text-xl px-4 py-2 sm:px-6 sm:py-4 rounded-3xl sticker-shadow -rotate-12 flex items-center gap-2 select-none">
-              <span className="material-symbols-outlined">icecream</span> Sınırsız Topping
+            <div className="absolute -bottom-6 -left-4 sm:-bottom-10 sm:-left-10 bg-tertiary-container border-4 border-black text-black font-black text-xs sm:text-lg md:text-xl px-3 py-1.5 sm:px-6 sm:py-4 rounded-3xl sticker-shadow -rotate-12 flex items-center gap-1 sm:gap-2 select-none">
+              <span className="material-symbols-outlined text-base sm:text-2xl">icecream</span> Sınırsız Topping
             </div>
           </div>
         </div>
