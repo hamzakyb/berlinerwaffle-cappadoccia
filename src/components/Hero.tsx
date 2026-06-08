@@ -83,7 +83,7 @@ export default function Hero() {
             <img
               alt="Bucket Waffle"
               className="w-full h-full object-cover rounded-full border-8 border-black shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] sm:shadow-[24px_24px_0px_0px_rgba(0,0,0,1)] hover:scale-105 transition-transform duration-300"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDg_Ugk2Lz9MRWG3nyqpqB3HcjFLzXFAsByZFq6rQcxKKsH0GY95b3TR9b2S7qBgNFdWS6A17UKW6RdREr7ysDvfB66YhqIYDNb-Rt89AICXXrU3TAP20qQqnpZJ0WIPx9-WOJq60MKFK_ogvxqE47o12fekNLPewEIk5S635u31Wrqhj5muhG8_QRKhrVSdjOdHy7lVpOsjxBShyoZiFJlNzsh5P8PZsSUnFkHqrdlm-s7pqBemhiq1A4V9uavxYTvSYkFQ09qrtk"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCfYp0wR4wNjV73QZAvBqUhozwSDioSb_KVSPD1B7N8pdLr5ygSPY9tziq1f5YGvRP248VlRdEHulmj5kxWsaiIGN8cR8qE_IosCbV7SW0_2yQLFnWHBiUYH7oidIOSWKnGhacWjEapdv6xEBzZautFjQABbd2w3sAFw1T8TiCxMNYFxLTH_r18eZeCYLTW2Rw7JDigUyvXtpwBt7TPUv0Bl-mDo_PREcxQuD_eZWVkpbkq4a0HmbBxR9hsZfGn-1aDKRuCQiBsc0"
               style={{ borderRadius: "40% 60% 70% 30% / 40% 50% 60% 50%" }}
             />
             {/* Floating badges */}
