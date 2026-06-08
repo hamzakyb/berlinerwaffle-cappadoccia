@@ -47,7 +47,7 @@ export default function ContactPage() {
           
           <div className="max-w-container-max mx-auto">
             <h1 className="font-display-lg text-[40px] sm:text-[56px] md:text-[80px] font-extrabold text-black tracking-tight uppercase">
-              <span className="text-outline block rotate-2 bg-black px-6 py-2.5 sm:px-8 sm:py-3 w-fit mx-auto rounded-3xl mb-4">
+              <span className="text-honey-glaze block rotate-2 bg-black px-6 py-2.5 sm:px-8 sm:py-3 w-fit mx-auto rounded-3xl mb-4">
                 İLETİŞİM
               </span>
             </h1>

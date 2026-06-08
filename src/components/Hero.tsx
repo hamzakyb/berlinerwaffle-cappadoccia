@@ -33,7 +33,7 @@ export default function Hero() {
             <span className="whitespace-nowrap">Mutluluğun</span><br />
             <span className="text-outline-pink block my-2 -rotate-2">En Tatlı</span>
             Hali:
-            <span className="text-outline block mt-4 rotate-2 bg-black px-4 py-2 w-fit rounded-3xl text-[24px] sm:text-[36px] md:text-[50px] lg:text-[60px] leading-none">
+            <span className="text-honey-glaze block mt-4 rotate-2 bg-black px-4 py-2 w-fit rounded-3xl text-[24px] sm:text-[36px] md:text-[50px] lg:text-[60px] leading-none">
               Berliner Waffle Cappadocia
             </span>
           </h1>
