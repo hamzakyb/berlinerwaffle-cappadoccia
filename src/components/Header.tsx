@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <header
       id="main-header"
-      className={`sticky top-0 w-full z-50 transition-all duration-300 bg-light-pink border-b-4 border-black ${
+      className={`sticky top-0 w-full z-50 transition-all duration-300 bg-strawberry-pop border-b-4 border-black ${
         isScrolled
           ? "backdrop-blur-xl shadow-[0_8px_0_0_#000]"
           : ""
@@ -44,19 +44,19 @@ export default function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           <Link
-            className="text-black font-black text-xl hover:text-strawberry-pop transition-colors hover:scale-110 duration-200"
+            className="text-black font-black text-xl hover:text-white transition-colors hover:scale-110 duration-200"
             href="/"
           >
             Anasayfa
           </Link>
           <Link
-            className="text-black font-black text-xl hover:text-strawberry-pop transition-colors hover:scale-110 duration-200"
+            className="text-black font-black text-xl hover:text-white transition-colors hover:scale-110 duration-200"
             href="/menu"
           >
             Menü
           </Link>
           <Link
-            className="text-black font-black text-xl hover:text-strawberry-pop transition-colors hover:scale-110 duration-200"
+            className="text-black font-black text-xl hover:text-white transition-colors hover:scale-110 duration-200"
             href="/hakkimizda"
           >
             Hakkımızda
@@ -67,7 +67,7 @@ export default function Header() {
         <div className="flex items-center gap-4">
           <Link
             href="/iletisim"
-            className="hidden md:flex items-center justify-center bg-strawberry-pop text-white border-4 border-black font-black text-xl px-8 py-3 rounded-2xl sticker-shadow sticker-shadow-hover sticker-shadow-active transition-all -rotate-2"
+            className="hidden md:flex items-center justify-center bg-honey-glaze text-black border-4 border-black font-black text-xl px-8 py-3 rounded-2xl sticker-shadow sticker-shadow-hover sticker-shadow-active transition-all -rotate-2"
           >
             İletişim
           </Link>
@@ -84,23 +84,23 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <nav className="md:hidden bg-light-pink border-t-4 border-black px-margin-mobile py-6 flex flex-col gap-4">
+        <nav className="md:hidden bg-strawberry-pop border-t-4 border-black px-margin-mobile py-6 flex flex-col gap-4">
           <Link
-            className="text-black font-black text-xl hover:text-strawberry-pop transition-colors"
+            className="text-black font-black text-xl hover:text-white transition-colors"
             href="/"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Anasayfa
           </Link>
           <Link
-            className="text-black font-black text-xl hover:text-strawberry-pop transition-colors"
+            className="text-black font-black text-xl hover:text-white transition-colors"
             href="/menu"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Menü
           </Link>
           <Link
-            className="text-black font-black text-xl hover:text-strawberry-pop transition-colors"
+            className="text-black font-black text-xl hover:text-white transition-colors"
             href="/hakkimizda"
             onClick={() => setIsMobileMenuOpen(false)}
           >
@@ -108,7 +108,7 @@ export default function Header() {
           </Link>
           <Link
             href="/iletisim"
-            className="w-full flex items-center justify-center bg-strawberry-pop text-white border-4 border-black font-black text-xl py-3 rounded-2xl sticker-shadow mt-2"
+            className="w-full flex items-center justify-center bg-honey-glaze text-black border-4 border-black font-black text-xl py-3 rounded-2xl sticker-shadow mt-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             İletişim
