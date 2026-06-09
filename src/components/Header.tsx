@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <header
       id="main-header"
-      className={`sticky top-0 w-full z-50 transition-all duration-300 bg-honey-glaze border-b-4 border-black ${
+      className={`sticky top-0 w-full z-50 transition-all duration-300 bg-light-pink border-b-4 border-black ${
         isScrolled
           ? "backdrop-blur-xl shadow-[0_8px_0_0_#000]"
           : ""
@@ -84,7 +84,7 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <nav className="md:hidden bg-honey-glaze border-t-4 border-black px-margin-mobile py-6 flex flex-col gap-4">
+        <nav className="md:hidden bg-light-pink border-t-4 border-black px-margin-mobile py-6 flex flex-col gap-4">
           <Link
             className="text-black font-black text-xl hover:text-strawberry-pop transition-colors"
             href="/"
