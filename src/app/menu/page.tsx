@@ -172,9 +172,9 @@ export default function MenuPage() {
       <Header />
       <main className="flex-grow min-h-screen pb-24">
         {/* Page Title / Hero */}
-        <section className="relative w-full bg-strawberry-pop border-b-8 border-black py-16 px-margin-mobile md:px-margin-desktop overflow-hidden text-center select-none">
+        <section className="relative w-full bg-light-pink border-b-8 border-black py-16 px-margin-mobile md:px-margin-desktop overflow-hidden text-center select-none">
           {/* Decorative icons */}
-          <span className="material-symbols-outlined text-[80px] md:text-[100px] text-honey-glaze absolute -top-5 left-10 -z-10 animate-float opacity-80 mix-blend-color-burn">
+          <span className="material-symbols-outlined text-[80px] md:text-[100px] text-strawberry-pop absolute -top-5 left-10 -z-10 animate-float opacity-80 mix-blend-color-burn">
             favorite
           </span>
           <span className="material-symbols-outlined text-[80px] md:text-[100px] text-tertiary-container absolute -bottom-5 right-10 -z-10 animate-spin-slow opacity-80 mix-blend-color-burn">
